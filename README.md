@@ -4,9 +4,8 @@ This is an example project of using kawa maven plugin. The project consists of t
 
 Library project
 * exposes a r7rs scheme library to be used in other r7rs/kawa projects,
-* uses java library dependencies, downloaded from remote maven repository, to implement needed functionality,
-* defines unit tests,
-* does not impose specific kawa version / dependency for other projects that wish to use it.
+* uses java library dependencies, automatically downloaded from maven central repository, to implement needed functionality,
+* defines unit tests.
 
 Application project
 * uses library subproject as a dependency,
